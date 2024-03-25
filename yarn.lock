@@ -74,7 +74,7 @@
     json5 "^2.2.3"
     semver "^6.3.1"
 
-"@babel/core@^7.23.9", "@babel/core@^7.24.3":
+"@babel/core@^7.23.7", "@babel/core@^7.23.9", "@babel/core@^7.24.3":
   version "7.24.3"
   resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.24.3.tgz#568864247ea10fbd4eff04dda1e05f9e2ea985c3"
   integrity sha512-5FcvN1JHw2sHJChotgx8Ek0lyuh4kCKelgMTTqhYJJtloNvUfpAFMeNQUtdlIaktwrSV9LtCdqwk48wL2wBacQ==
@@ -2970,6 +2970,14 @@
   integrity sha512-E5IKOsxKcOtlOYc0cWgzVJohQB+dVBWwaJcg5FlslToknfVB9M0kfQ/SQcp3KB0C9/cOmJK1Jm388InW+EjrBQ==
   dependencies:
     memoizerific "^1.11.3"
+
+"@storybook/addon-webpack5-compiler-babel@^3.0.3":
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-webpack5-compiler-babel/-/addon-webpack5-compiler-babel-3.0.3.tgz#4aa5a57ea30f6ab82de90ef5eca8e3e3f05e112a"
+  integrity sha512-rVQTTw+oxJltbVKaejIWSHwVKOBJs3au21f/pYXhV0aiNgNhxEa3vr79t/j0j8ox8uJtzM8XYOb7FlkvGfHlwQ==
+  dependencies:
+    "@babel/core" "^7.23.7"
+    babel-loader "^9.1.3"
 
 "@storybook/blocks@8.0.4":
   version "8.0.4"
